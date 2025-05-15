@@ -27,64 +27,123 @@
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
-	header {
+	@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+	.content {
 		position: relative;
-		padding: 30px 0;
+		margin: 75px auto;
+		width: 500px;
+		height: 200px;
+		display: flex;
+		justify-content: center;
+	}
 
-		@include for-phone-only {
-			padding: 20px 0;
-		}
+	.content h2 {
+		color: #fff;
+		font-size: 8em;
+		position: absolute;
+	}
 
-		&.has-background {
-			background: linear-gradient(
-				60deg,
-				var(--color--waves-start) 0%,
-				var(--color--waves-end) 100%
-			);
-		}
+	.content h2:nth-child(1) {
+		color: transparent;
+		-webkit-text-stroke: 2px #3877ec;
+		color: #ffffff;
+	}
 
-		.container {
-			display: flex;
-			align-items: center;
-			gap: 30px;
+	.content h2:nth-child(2) {
+		color: #62acf1;
+		animation: animate 4s ease-in-out infinite;
+	}
 
-			@include for-phone-only {
-				.links {
-					a {
-						display: none;
-					}
-				}
-			}
-		}
-
-		.logo {
-			height: 44px;
-			flex: 1;
-		}
-
-		a {
-			color: var(--color--text);
-		}
-
-		.links {
-			display: flex;
-			align-items: center;
-			justify-content: flex-end;
-			gap: 30px;
-
-			a {
-				text-decoration: none;
-
-				&:hover {
-					color: var(--color--primary);
-					filter: drop-shadow(0px 0px 3px var(--color--primary));
-				}
-			}
+	@media (max-width: 1000px) {
+		.content h2 {
+			font-size: 6em;
 		}
 	}
 
-	.image {
-		width: 40px;
-		height: 40px;
+	@media (max-width: 600px) {
+		.content {
+			width: 250px;
+		}
+		.content h2 {
+			font-size: 4em;
+		}
+	}
+
+	@keyframes animate {
+		0%,
+		100% {
+			clip-path: polygon(
+				0% 45%,
+				16% 44%,
+				33% 50%,
+				54% 60%,
+				70% 61%,
+				84% 59%,
+				100% 52%,
+				100% 100%,
+				0% 100%
+			);
+		}
+
+		50% {
+			clip-path: polygon(
+				0% 60%,
+				15% 65%,
+				34% 66%,
+				51% 62%,
+				67% 50%,
+				84% 45%,
+				100% 46%,
+				100% 100%,
+				0% 100%
+			);
+		}
+	}
+
+	#hero {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 15px;
+		position: relative;
+		padding: 80px 0;
+
+		@include for-phone-only {
+			padding: 40px 0 50px;
+		}
+
+		.hello {
+			text-align: center;
+		}
+
+		.intro {
+			font-weight: 500;
+			font-size: 1.4rem;
+			width: min(100%, 440px);
+			display: flex;
+			flex-direction: column;
+
+			.left {
+				text-align: left;
+			}
+			.right {
+				text-align: right;
+			}
+
+			@include for-phone-only {
+				display: none;
+			}
+		}
+
+		.ctas {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+			width: 100%;
+		}
 	}
 </style>
