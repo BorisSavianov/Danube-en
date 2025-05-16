@@ -1,43 +1,60 @@
-import type { Feature } from "$lib/utils/types";
+import type { Feature } from '$lib/utils/types';
 
-export default [ 
-  {
-    name: 'Markdown Support',
-    description:
-      'Blog posts are written in Markdown, a simple and nearly-universal format. This means you can bring over your posts from other platforms, and easily export to another if you want to.',
-    image: 'images/features/markdown.jpg',
-    tags: [{ label: 'Powered by MDsveX' }]
-  }, 
-  {
-    name: 'Themeable',
-    description:
-      'You can easily theme the entire website by changing just a few colors in the _themes.scss file.',
-    image: 'images/features/themeable.jpg',
-    tags: [{ label: 'Primary Color' }, { label: 'Secondary Color', color: 'secondary' }]
-  }, 
-  {
-    name: 'Extensible',
-    description:
-      'Components are built to be reused, and you can build new pages and layouts without much CSS knowledge. You can see all components in Histoire by running "npm run story:dev"',
-    image: 'images/features/extensible.jpg',
-  }, 
-  {
-    name: 'Well Optimized',
-    description:
-      'Images are automatically optimized and lazy loaded, to ensure the website loads as fast as possible regardless of connection speed.',
-    image: 'images/features/optimized.jpg',
-    tags: [{ label: 'Powered by Image Transmutation' }]
-  }, 
-  {
-    name: 'Light and Dark Modes',
-    description:
-      'This template was built with dark mode in mind. It can swap between themes automatically (based on system settings) or manually. Both themes can be tweaked in the _themes.scss file.',
-    image: 'images/features/light-dark.jpg',
-  },
-  {
-    name: 'Open Source',
-    description:
-      'All code is open source, which means you can copy and modify it to your heart\'s content. All I ask is that you make your code open too so that knowledge can be passed on.',
-    image: 'images/features/open-source.jpg'
-  },
+export default [
+	{
+		name: 'Threats to Biodiversity',
+		description: `<ul>
+        <li>Pollution (industrial, domestic, agricultural)</li>
+        <li>Hydrotechnical structures (dams, dikes, canals)</li>
+        <li>Invasive species – <a href="https://esenias.org/files/ESENIAS_Atlas_WEB.pdf" target="_blank">link</a></li>
+        <li>Intensive agriculture and deforestation</li>
+        <li>Climate change</li>
+      </ul>`,
+		image: 'images/features/threats.jpg',
+		tags: [{ label: 'Biodiversity' }]
+	},
+
+	{
+		name: 'Conservation Activities and Initiatives',
+		description: `<ul>
+        <li>National and transboundary conservation projects: ICPDR (International Commission for the Protection of the Danube River)</li>
+        <li>"Danubeparks" project – a network of parks along the Danube</li>
+        <li>Natura 2000 – EU network of protected areas</li>
+        <li>Wetland restoration projects</li>
+        <li>Fish migration and sturgeon conservation programs</li>
+      </ul>`,
+		image: 'images/features/conservation.jpg',
+		tags: [{ label: 'Environmental Projects' }]
+	},
+
+	{
+		name: 'Education and Public Participation',
+		description: `<ul>
+        <li>WWF’s “Living Danube” campaign</li>
+        <li>Danube Day – June 29</li>
+        <li>Awareness campaigns for local communities</li>
+        <li>Educational programs in schools and universities</li>
+        <li>Tourist routes highlighting the Danube’s natural wealth</li>
+        <li>Environmental volunteer actions</li>
+      </ul>`,
+		image: 'images/features/education.jpg',
+		tags: [{ label: 'Public Involvement' }]
+	},
+
+	{
+		name: 'Success Stories',
+		description: `<ul>
+        <li>Partial recovery of sturgeon populations through artificial breeding</li>
+        <li>Restored wetlands in Bulgaria, Romania, and Austria</li>
+        <li>Reduced pollution through wastewater treatment plants</li>
+      </ul>`,
+		image: 'images/features/success.jpg',
+		tags: [{ label: 'Good Practices' }]
+	},
+	{
+		name: 'About Us',
+		description: `We are students from the “Applied Programmer” class, united by our passion for technology and our responsibility toward nature. Through our environmental project, we aim to raise awareness about how we can all protect the Danube River together!`,
+		image: 'images/features/about.jpg',
+		tags: [{ label: 'Team' }]
+	}
 ] as Feature[];

@@ -7,12 +7,13 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			All about the biology of
-			<SparklingHighlight color="secondary">the Danube!</SparklingHighlight>
+			Water is a treasure,
+			<SparklingHighlight color="secondary">water is life!</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			If we understand, protect, and care for the rich Danube ecosystem, with its thousands of
+			species of plants, animals, and microorganisms, the benefits will be long-lasting and
+			far-reaching.
 		</p>
 	</div>
 	<div class="image">

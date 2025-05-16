@@ -10,7 +10,7 @@ export default defineConfig({
 			light: './static/favicons/favicon.png',
 			dark: './static/favicons/favicon.png'
 		},
-		favicon: './static/favicons/favicon.ico',
+		favicon: './static/favicons/favicon.png',
 		colors: {
 			primary: defaultColors.purple
 		}

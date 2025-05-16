@@ -6,11 +6,9 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">The Danube river</h1>
+	<h1 class="hello">The river of life</h1>
 	<p class="intro">
-		<span class="right" style="text-align: center;"
-			>Запазване и възстановяване на местообитания и растителни и животински видове.</span
-		>
+		<span class="right" style="text-align: center;">The Natural Wonders of the Danube</span>
 	</p>
 	<div class="ctas">
 		<Sparkles />
