@@ -52,7 +52,6 @@
 			<div class="header">
 				{#if post}
 					<h1>{post.title}</h1>
-					<div class="note">Published on {dateformat(post.date, 'UTC:dd mmmm yyyy')}</div>
 					{#if post.updated}
 						<div class="note">Updated on {dateformat(post.updated, 'UTC:dd mmmm yyyy')}</div>
 					{/if}

@@ -11,7 +11,7 @@
 </script>
 
 <Card additionalClass="feature-card">
-	<div class="image" slot="image">
+	<div class="image" slot="image" style="margin: auto 0;">
 		<Image src={image} alt="Picture describing the {name} feature" />
 	</div>
 	<div class="content" slot="content">
@@ -20,23 +20,21 @@
 		</div>
 		<p>{@html description}</p>
 	</div>
-	<div class="footer" slot="footer">
-		{#if tags && tags.length > 0}
-			<div class="tags">
-				{#each tags as tag}
-					<Tag color={tag.color}>{tag.label}</Tag>
-				{/each}
-			</div>
-		{/if}
-	</div>
 </Card>
 
 <style lang="scss">
+	@import '$lib/scss/themes.scss';
+
 	.content {
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
 		align-items: flex-start;
+	}
+
+	.image {
+		padding: 20px;
+		object-fit: contain !important;
 	}
 
 	.title {
@@ -59,9 +57,5 @@
 
 	.footer {
 		margin-top: 20px;
-	}
-
-	:global(.feature-card .image img) {
-		object-fit: cover;
 	}
 </style>

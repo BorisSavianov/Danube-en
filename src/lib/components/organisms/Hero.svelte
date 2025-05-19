@@ -3,20 +3,20 @@
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
+	import SingleSparkle from '../atoms/SingleSparkle.svelte';
+	import SparklingHighlight from '../molecules/SparklingHighlight.svelte';
 </script>
 
 <section id="hero">
-	<h1 class="hello">The river of life</h1>
+	<h1 class="hello">River of Life</h1>
 	<p class="intro">
-		<span class="right" style="text-align: center;">The Natural Wonders of the Danube</span>
+		<SparklingHighlight />
+		<span class="right" style="text-align: center;">The Danube’s Natural Wonders</span>
 	</p>
-	<div class="ctas">
-		<Sparkles />
-	</div>
 </section>
 <div class="content">
-	<h2>Danube</h2>
-	<h2>Danube</h2>
+	<h2>The Danube</h2>
+	<h2>The Danube</h2>
 </div>
 
 <style lang="scss">
@@ -26,8 +26,8 @@
 
 	.content {
 		position: relative;
-		margin: 75px auto;
-		width: 500px;
+		margin: 30vh auto auto auto;
+		width: 600px;
 		height: 200px;
 		display: flex;
 		justify-content: center;
@@ -35,7 +35,7 @@
 
 	.content h2 {
 		color: #fff;
-		font-size: 8em;
+		font-size: 5.5em;
 		position: absolute;
 	}
 
@@ -48,6 +48,21 @@
 	.content h2:nth-child(2) {
 		color: #62acf1;
 		animation: animate 4s ease-in-out infinite;
+	}
+
+	@media (max-width: 1000px) {
+		.content h2 {
+			font-size: 4.5em;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.content {
+			width: 300px;
+		}
+		.content h2 {
+			font-size: 2.7em;
+		}
 	}
 
 	@keyframes animate {

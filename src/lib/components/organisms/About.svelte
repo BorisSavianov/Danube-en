@@ -16,9 +16,9 @@
 			far-reaching.
 		</p>
 	</div>
-	<div class="image">
+	<!-- <div class="image">
 		<Image src="/images/danube.jpg" alt="Image of the Danube river" />
-	</div>
+	</div> -->
 </section>
 
 <style lang="scss">
@@ -27,10 +27,14 @@
 	#about {
 		position: relative;
 		display: grid;
-		grid-template-columns: 500px 250px;
+		grid-template-columns: 600px;
 		align-items: center;
 		justify-content: space-between;
 		padding-bottom: 50px;
+		max-width: 600px;
+		margin: 0 auto;
+		place-content: center;
+		text-align: center;
 
 		@include for-phone-only {
 			grid-template-columns: 1fr;

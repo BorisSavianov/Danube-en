@@ -4,7 +4,6 @@ slug: sturgeons
 coverImage: /images/moruna1.jpg
 date: 2023-04-22T21:55:15.361Z
 excerpt:
-keywords: beluga sturgeon, sturgeons, river fish, biodiversity, endangered species
 tags: ['beluga sturgeon', 'sturgeons', 'river fish', 'biodiversity', 'endangered species']
 ---
 

@@ -8,8 +8,7 @@
 
 <ContentSection
 	id="features"
-	title="Something else"
-	description="Something about the idea (inspiration, motive)"
+	title="Protecting the Danube: Challenges, Actions, and Success Stories"
 >
 	<div class="features-container">
 		<div class="three-group-grid">
