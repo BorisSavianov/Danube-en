@@ -35,7 +35,7 @@ export default [
         <li>Tourist routes highlighting the natural richness of the Danube</li>
         <li>Participation in environmental volunteer initiatives</li>
       </ul>`,
-		image: 'images/features/graduation-cap.png'
+		image: 'images/features/education.jpg'
 	},
 
 	{
@@ -50,6 +50,6 @@ export default [
 	{
 		name: 'About Us',
 		description: `We are students from the “Applied Programmer” class, united by our passion for technology and our responsibility toward nature. Through our environmental project, we aim to raise awareness about how we can all protect the Danube River together!`,
-		image: 'images/features/info.png'
+		image: 'images/features/class.jpg'
 	}
 ] as Feature[];

@@ -33,8 +33,7 @@
 	}
 
 	.image {
-		padding: 20px;
-		object-fit: contain !important;
+		object-fit: contain;
 	}
 
 	.title {
