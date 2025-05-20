@@ -1,5 +1,5 @@
 ---
-slug: Sturgeons-type
+slug: sturgeons-type
 title: Sturgeons – Danube’s indicator for a healthy ecosystem
 date: 2023-04-22T21:55:27.154Z
 excerpt:
