@@ -1,6 +1,6 @@
 ---
 slug: islands
-title: Островите по Дунав - рай сред дивата природа
+title: The Danube Islands - a paradise among wildlife
 date: 2023-04-22T21:55:27.154Z
 excerpt:
 coverImage: /images/ostrovi1.jpg
