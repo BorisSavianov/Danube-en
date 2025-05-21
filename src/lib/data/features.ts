@@ -15,7 +15,7 @@ export default [
         <li>Intensive agriculture and deforestation</li>
         <li>Climate change</li>
       </ul>`,
-		image: 'images/features/alert.png'
+		image: 'images/features/hires6.png'
 	},
 
 	{
@@ -27,7 +27,7 @@ export default [
         <li>Wetland restoration projects</li>
         <li>Fish migration programs and sturgeon conservation efforts</li>
       </ul>`,
-		image: 'images/features/conservation.png'
+		image: 'images/features/hires5.png'
 	},
 
 	{
@@ -50,6 +50,6 @@ export default [
         <li>Restored wetlands in Bulgaria, Romania, and Austria</li>
         <li>Reduced pollution levels due to improved wastewater treatment plants</li>
       </ul>`,
-		image: 'images/features/goal.png'
+		image: 'images/features/hires3.png'
 	}
 ] as Feature[];

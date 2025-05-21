@@ -88,7 +88,7 @@
 
 		// height: min(100%, 300px);
 		min-height: 280px;
-		max-height: 500px;
+		max-height: 600px;
 	}
 
 	:global(.card [slot='image']) {
