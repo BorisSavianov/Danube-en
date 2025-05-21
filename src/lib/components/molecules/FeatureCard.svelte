@@ -12,7 +12,7 @@
 
 <Card additionalClass="feature-card">
 	<div class="image" slot="image" style="margin: auto 0;">
-		<Image src={image} alt="Picture describing the {name} feature" />
+		<Image fit="cover" src={image} alt="Picture describing the {name} feature" />
 	</div>
 	<div class="content" slot="content">
 		<div class="title">
@@ -30,10 +30,6 @@
 		flex-direction: column;
 		gap: 10px;
 		align-items: flex-start;
-	}
-
-	.image {
-		object-fit: contain;
 	}
 
 	.title {

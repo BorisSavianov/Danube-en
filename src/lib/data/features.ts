@@ -2,6 +2,11 @@ import type { Feature } from '$lib/utils/types';
 
 export default [
 	{
+		name: 'About Us',
+		description: `We are students from the “Applied Programmer” class, united by our passion for technology and our responsibility toward nature. Through our environmental project, we aim to raise awareness about how we can all protect the Danube River together!`,
+		image: 'images/features/class.jpg'
+	},
+	{
 		name: 'Threats to Biodiversity',
 		description: `<ul>
         <li>Pollution – industrial, domestic, and agricultural</li>
@@ -46,10 +51,5 @@ export default [
         <li>Reduced pollution levels due to improved wastewater treatment plants</li>
       </ul>`,
 		image: 'images/features/goal.png'
-	},
-	{
-		name: 'About Us',
-		description: `We are students from the “Applied Programmer” class, united by our passion for technology and our responsibility toward nature. Through our environmental project, we aim to raise awareness about how we can all protect the Danube River together!`,
-		image: 'images/features/class.jpg'
 	}
 ] as Feature[];

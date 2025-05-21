@@ -17,7 +17,7 @@
 			<ThemeToggle />
 			<a href="https://danube-bg.vercel.app/">
 				<div class="image">
-					<Image src="/images/en.jpg" alt="english flag" />
+					<Image fit="contain" src="/images/en.jpg" alt="english flag" />
 				</div>
 			</a>
 		</div>
